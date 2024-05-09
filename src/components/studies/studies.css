@@ -1,0 +1,87 @@
+.studies__container {
+    padding: 2em;
+}
+
+.image {
+    display: none;
+}
+
+.phone_img {
+    height: 12rem;
+}
+
+.direction_text {
+    text-align: center;
+}
+
+.studies__logos {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    padding-left: 0;
+    gap: 20px;
+}
+
+.logo {
+    width: 18rem;
+}
+
+.case_title {
+    text-align: center;
+    color: var(--text-color);
+    margin-top: 2em;
+}
+
+.card__studies{
+    background-color: rgba(56,113,255,255);
+    padding: 20px;
+
+}
+/*
+.content_text {
+    width: 60%;
+}*/
+
+.container_cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 2em;
+}
+
+.top {
+    margin-top: 20px;
+}
+
+
+
+@media screen and (min-width: 768px){
+
+    .studies__logos {
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+    }
+
+    .direction_text {
+        text-align: left;
+    }
+    .image {
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 1200px){
+
+    .logo {
+        width: 12rem;
+    }
+    .studies__logos {
+        grid-template-columns: repeat(5,  1fr);
+    }
+
+    .card__studies {
+        height: 15rem;
+    }
+
+}

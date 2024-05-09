@@ -1,0 +1,99 @@
+:root {
+  --title-color: #fff;
+  --text-color: #9399a2;
+  --font-medium:  ctd-medium;
+  --font-normal: ctd-book
+}
+
+@font-face {
+  font-family: ctd-medium;
+  src: url(./assets/font/circular-std-medium-500.ttf);
+}
+
+@font-face {
+  font-family: ctd-book;
+  src: url(./assets/font/CircularStd-Book.ttf);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-medium);
+}
+
+.bg1 {
+  background-color: rgba(40,51,69,255);
+  background-image: url(./assets/img/asset-background.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right;
+  height: 185vh;
+}
+
+
+.bg2 {
+  background-color: rgba(56,113,255,255);
+  height: 180vh;
+}
+
+
+
+.bg4 {
+  background-color: rgba(40,51,69,255);
+  height: 75vh;
+}
+
+@media screen and (min-width: 576px){
+  .bg2 {
+    height: 120vh;
+  }
+}
+
+@media screen and (min-width: 768px){
+  .bg2 {
+    height: 90vh;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  .bg3 {
+    height: 68vh;
+  }
+
+  .bg4 {
+    height: 80vh;
+  }
+}
+
+
+
+
+
+
+/*
+.bg1 {
+  background-color: rgba(40,51,69,255);
+  background-image: url(./assets/img/asset-background.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right;
+  height: 185vh;
+}
+
+.bg2 {
+  background-color: rgba(56,113,255,255);
+  height: 90vh;
+}
+
+.bg3 {
+  height: 68vh;
+}
+
+.bg4 {
+  background-color: rgba(40,51,69,255);
+  height: 75vh;
+}*/
+
+
