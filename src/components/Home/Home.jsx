@@ -19,10 +19,10 @@ const Home = () => {
         </Col>
       </Row>
       <Row className='gx-1 mt-2'>
-        <Col xs={6} sm={3} >
+        <Col className='g-3' xs={12} sm={6} md={4} >
           <Button variant="outline-secondary" className='rounded-1'>Learn more</Button>
         </Col>
-        <Col xs={6} sm={9} >
+        <Col className='g-3' xs={12} sm={6} md={8} >
         <Button variant="primary" className='rounded-1'>
           Our projects
           <BsArrowRightShort className='icon'/>
