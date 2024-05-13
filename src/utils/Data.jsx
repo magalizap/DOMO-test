@@ -2,8 +2,8 @@ import { MdOutlineDesignServices } from "react-icons/md";
 import { BsFillFileEarmarkTextFill, BsPcDisplay} from "react-icons/bs";
 import { FaHtml5, FaCss3Alt, FaSass, FaNodeJs, FaAngular, FaPython, FaLinkedinIn, FaGithub } from "react-icons/fa";
 
-import { IoIosMail, IoLogoWhatsapp } from "react-icons/io";
-import { FaPhoneVolume } from "react-icons/fa6";
+import { IoIosMail, IoLogoWhatsapp, IoIosGlobe  } from "react-icons/io";
+
 
 import TNW from '../assets/img/tnw.webp'
 import Google from '../assets/img/google.png'
@@ -121,9 +121,9 @@ export const networks = [
     },
     {
       id: 2,
-      path: 'tel:+5491160200142',
-      title: 'Llamar por teléfono a Magali Sol Zapata',
-      icon: <FaPhoneVolume/>,
+      path: 'https://magali-zapata-portfolio.vercel.app/',
+      title: 'Visitar sitio web de Magali Sol Zapata',
+      icon: <IoIosGlobe/>,
     },
     {
       id: 3,
